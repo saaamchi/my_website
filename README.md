@@ -1,1 +1,2 @@
-# my_website
+# Website
+My website created to display my resume and experiences.
