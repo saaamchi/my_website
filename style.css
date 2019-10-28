@@ -1,9 +1,9 @@
-body {
+ body {
 	margin: 30px 200px 65px;
 	background-image: url("images/rainbow.jpg");
 	background-color: oldlace;
 	/*background-repeat: repeat-x;*/
-	background-size: 1440px 750px;
+	background-size: 1440px 755px;
 	background-attachment: fixed;
 	background-position: center;
 }
@@ -19,25 +19,28 @@ h1 {
 	/*font-variant: small-caps; */
 	text-align: center;
 	color : sandybrown;
+	position: sticky;
 
 }
 
 .mini_header{
-	padding: 15px;
+	padding-top: : 10px;
 	text-align: left;
 	color : sandybrown;
 	font-family: courier;
-	font-size: 1.6vw;
-	/*font-weight: 50;*/
+	font-size: 1.9vw;
+	font-weight: 50;
 }
 
 .paragraph {
+	/*position: absolute;*/
 	color : mediumseagreen;
-	background-color: rgba(225, 212, 252, 0.4);
-	padding: 10px;
-	border-radius: 10px;
+	background-color: rgba(231, 223, 247, 0.5);
+	padding: 4px;
+	border-radius: 30px;
+	text-align: left;
 	font-family: courier;
-
+	list-style-position: outside;
 }
 #links {
 	color: #522761;
@@ -51,7 +54,28 @@ h1 {
 
 .list {
 	list-style-type: circle;
-//comment
+}
+.entry{
+	font-size: 1.4vw;
+	color:#522761;
+	padding-left: 10px;
+}
 
+.entry_details{
+	list-style-type: circle;
+	font-size: 1.1vw;
+}
+
+.left_panel{
+	position: -webkit-sticky;
+	top: 100;
+	left: 100px;
+	border: 3px solid #73AD21;
+}
+/*
+#left {
+	position:sticky;
+	left:0px;
 
 }
+*/
