@@ -1,16 +1,8 @@
- body {
-	margin: 30px 200px 65px;
-	background-image: url("images/rainbow.jpg");
-	background-color: oldlace;
-	/*background-repeat: repeat-x;*/
-	background-size: 1440px 755px;
-	background-attachment: fixed;
-	background-position: center;
-}
+
 h1 {
 	max-width:1000px;
 	margin: auto;
-	padding: 15px 20px;
+	padding: 75px 40px;
 	border : 2px solid #319179;
 	border-radius: 50px;
 	font-family: "century gothic";
@@ -20,28 +12,54 @@ h1 {
 	text-align: center;
 	color : sandybrown;
 	position: sticky;
+}
+
+body {
+	/*top, right and left, bottom*/
+	margin: 100px 150px 1000px;	
+	
+	/*idk why top and bottom arent being affected */
 
 }
 
-.mini_header{
+h2{
 	padding-top: : 10px;
 	text-align: left;
 	color : sandybrown;
 	font-family: courier;
 	font-size: 1.9vw;
 	font-weight: 50;
+	float: left;
+	width: 75%;
+}
+h3{
+	font-size: 1.4vw;
+	color:#522761;
+	padding-left: 10px;
+}
+.rightcol{
+	padding-top: 40px;
+	margin: auto;
+	float: right;
+	width: 30%;
 }
 
-.paragraph {
-	/*position: absolute;*/
-	color : mediumseagreen;
+.leftcol{
+	float: left;
+	width: 67%;
+	padding-top: 40px;
+}
+
+.sections{
 	background-color: rgba(231, 223, 247, 0.5);
-	padding: 4px;
+	padding: 30px;
 	border-radius: 30px;
 	text-align: left;
 	font-family: courier;
 	list-style-position: outside;
+	margin-bottom: 30px;
 }
+
 #links {
 	color: #522761;
 	padding-right: 10px;
@@ -52,30 +70,10 @@ h1 {
 	color: #a64fc4;
 }
 
-.list {
-	list-style-type: circle;
-}
-.entry{
-	font-size: 1.4vw;
-	color:#522761;
-	padding-left: 10px;
-}
-
 .entry_details{
 	list-style-type: circle;
 	font-size: 1.1vw;
+	color : mediumseagreen;
 }
 
-.left_panel{
-	position: -webkit-sticky;
-	top: 100;
-	left: 100px;
-	border: 3px solid #73AD21;
-}
-/*
-#left {
-	position:sticky;
-	left:0px;
 
-}
-*/
