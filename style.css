@@ -17,8 +17,6 @@ h1 {
 body {
 	/*top, right and left, bottom*/
 	margin: 100px 150px 1000px;	
-
-	/*idk why top and bottom arent being affected */
 }
 
 h2{
@@ -28,17 +26,17 @@ h2{
 	font-family: courier;
 	font-size: 1.9vw;
 	font-weight: 50;
-	float: left;
 	width: 75%;
 }
+
 h3{
 	font-size: 1.4vw;
 	color:#522761;
 	padding-left: 10px;
 }
 
-/*RIGHT SIDE OF PAGE*/
 
+/*RIGHT SIDE OF PAGE*/
 
 .rightcol{
 	padding-top: 40px;
@@ -47,6 +45,10 @@ h3{
 	width: 30%;
 }
 
+.description{
+	font-size: 1.1vw;
+	color : mediumseagreen;
+}
 
 #links {
 	color: #522761;
@@ -62,7 +64,6 @@ h3{
 /*LEFT SIDE OF PAGE*/
 
 
-
 .leftcol{
 	float: left;
 	width: 67%;
@@ -75,7 +76,6 @@ h3{
 	border-radius: 30px;
 	text-align: left;
 	font-family: courier;
-	/*list-style-position: outside;*/
 	margin-bottom: 30px;
 	overflow: scroll;
 	
@@ -86,8 +86,6 @@ h3{
 	font-size: 1.1vw;
 	color : mediumseagreen;
 }
-
-
 
 
 
