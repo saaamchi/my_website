@@ -8,7 +8,6 @@ h1 {
 	font-family: "century gothic";
 	font-size: 2.5vw;
 	font-weight: 100;
-	/*font-variant: small-caps; */
 	text-align: center;
 	color : sandybrown;
 	position: sticky;
@@ -35,14 +34,50 @@ h3{
 	padding-left: 10px;
 }
 
+/*NAVIGATION BAR*/  
+
+.nav{
+	margin-top: 10px;
+	background-color: plum;
+	
+}
+
+.nav-item{
+margin: 15px;
+margin-right: 60px;
+	padding: 0;
+	color: mediumseagreen;
+	font-size: 30px;
+	display: block;
+}
+
+.nav-link{
+	color: mediumseagreen;
+}
+.nav-link:hover{
+	background-color: sandybrown;
+/*color: sandybrown;
+*/}
+/*#navbar_li{
+	float: left;
+}
+
+#navbar_ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: plum;
+}*/
 
 /*RIGHT SIDE OF PAGE*/
 
 .rightcol{
 	padding-top: 40px;
 	margin: auto;
-	float: right;
+	
 	width: 30%;
+	
+	float: right;
 }
 
 .description{
