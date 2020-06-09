@@ -2,7 +2,7 @@
 h1 {
 	max-width:1000px;
 	margin: auto;
-	padding: 75px 40px;
+	padding: 35px 10px;
 	border : 2px solid #319179;
 	border-radius: 50px;
 	font-family: "century gothic";
@@ -38,7 +38,7 @@ h3{
 
 .nav{
 	margin-top: 10px;
-	background-color: plum;
+	background-color: rgba(231, 223, 247, 0.5);
 	
 }
 
@@ -47,8 +47,9 @@ margin: 15px;
 margin-right: 60px;
 	padding: 0;
 	color: mediumseagreen;
-	font-size: 30px;
+	font-size: 25px;
 	display: block;
+	font-family: courier;
 }
 
 .nav-link{
@@ -76,8 +77,24 @@ margin-right: 60px;
 	margin: auto;
 	
 	width: 30%;
-	
+	position: sticky;
 	float: right;
+}
+
+#profilepic{
+	width:250px; 
+	height: 250px; 
+	margin: auto; 
+	display: block; 
+	border-radius: 200px;
+	box-shadow: 10px 10px 10px black;
+	
+
+}
+#profilepic:hover{
+box-shadow: 10px 10px 10px darkgrey;
+	
+	
 }
 
 .description{
