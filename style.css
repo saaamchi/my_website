@@ -1,16 +1,65 @@
-
+/*
 h1 {
 	max-width:1000px;
 	margin: auto;
-	padding: 35px 10px;
 	border : 2px solid #319179;
 	border-radius: 50px;
 	font-family: "century gothic";
 	font-size: 2.5vw;
 	font-weight: 100;
+	padding: 35px 10px;
 	text-align: center;
 	color : sandybrown;
 	position: sticky;
+}*/
+
+/*HEADER ANIMATIION*/
+
+.nameheader{
+	display: flex;
+	flex-wrap:wrap;
+
+}
+
+.nameh1{
+
+	animation-name: name1;
+	animation-duration: 4.4s;
+	position: relative;
+	left:0px;
+	width: 100%
+	height:auto;
+}
+
+.nameh2{
+	animation-name: name2;
+	/*animation-delay: 1s;*/
+	animation-duration: 4.2s;
+	position: relative;
+	left:250px;
+}
+
+.nameh3{
+	animation-name: name3;
+	/*animation-delay: 2s;*/
+	animation-duration: 4s;
+	position: relative;
+	left:500px;
+	transition-timing-function: ease;
+}
+
+@keyframes name1{
+	0% { left:-1800px; }
+	100%{ left: 0px; }
+}
+
+@keyframes name2{
+	0% { left:-1550px; }
+	100%{ left:250px; }
+}
+@keyframes name3{
+	0% { left:-1000px; }
+	100%{ left: 500px; }
 }
 
 body {
@@ -43,11 +92,11 @@ h3{
 }
 
 .nav-item{
-margin: 15px;
+margin: 5px;
 margin-right: 60px;
 	padding: 0;
 	color: mediumseagreen;
-	font-size: 25px;
+	font-size: 20px;
 	display: block;
 	font-family: courier;
 }
@@ -72,6 +121,10 @@ margin-right: 60px;
 
 /*RIGHT SIDE OF PAGE*/
 
+/*.flex-container{
+	display: flex;
+}*/
+
 .rightcol{
 	padding-top: 40px;
 	margin: auto;
@@ -79,6 +132,7 @@ margin-right: 60px;
 	width: 30%;
 	position: sticky;
 	float: right;
+	box-sizing: border-box;
 }
 
 #profilepic{
@@ -87,7 +141,7 @@ margin-right: 60px;
 	margin: auto; 
 	display: block; 
 	border-radius: 200px;
-	box-shadow: 10px 10px 10px black;
+	/*box-shadow: 10px 10px 10px black;*/
 	
 
 }
@@ -130,6 +184,7 @@ box-shadow: 10px 10px 10px darkgrey;
 	font-family: courier;
 	margin-bottom: 30px;
 	overflow: scroll;
+	box-sizing: border-box;
 	
 }
 
